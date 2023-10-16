@@ -5,7 +5,7 @@ LABEL maintainer="babo96"
 RUN mkdir -p /root-layer/app
 
 # copy local files
-COPY /docker-mod/root/ /root-layer/
+COPY /root/ /root-layer/
 
 FROM scratch
 
