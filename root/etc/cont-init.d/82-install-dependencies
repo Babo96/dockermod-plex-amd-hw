@@ -11,7 +11,7 @@ add-apt-repository ppa:oibaf/graphics-drivers -y
 echo "**** apt-get update ****"
 apt-get update
 echo "**** install vainfo, mesa-va-drivers, mesa-vdpau-drivers, libdrm-amdgpu1, libavutil56 ****"
-apt-get install -y vainfo  mesa-va-drivers mesa-vdpau-drivers libdrm-amdgpu1 libavutil56
+apt-get install -y vainfo  mesa-va-drivers mesa-vdpau-drivers libdrm-amdgpu1 libavutil56 binutils
 echo "**** create dri dir in plex lib folder ****"
 mkdir -p /usr/lib/plexmediaserver/lib/dri/
 echo "**** copy driver libs to plex lib dir ****"
