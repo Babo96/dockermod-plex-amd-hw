@@ -21,3 +21,5 @@ cp /lib/x86_64-linux-gnu/libdrm.so.2.* /usr/lib/plexmediaserver/lib/libdrm.so.2 
 cp /lib/x86_64-linux-gnu/libva-drm.so.2.* /usr/lib/plexmediaserver/lib/libva-drm.so.2 && \
 cp /lib/x86_64-linux-gnu/libva.so.2.* /usr/lib/plexmediaserver/lib/libva.so.2 && \
 cp /lib/x86_64-linux-gnu/libstdc++.so.6.* /usr/lib/plexmediaserver/lib/libstdc++.so.6 
+
+apt-get install -y ffmpeg
