@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 echo "**** install amd drivers ****"
-echo "**** install ppa repos dependencies
+echo "**** install ppa repos dependencies ****"
 echo "**** apt-get update ****"
 apt-get update
 echo "**** install software-properties-common ****"
