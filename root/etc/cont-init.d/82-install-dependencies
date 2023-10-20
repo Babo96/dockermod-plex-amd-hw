@@ -23,3 +23,5 @@ cp /lib/x86_64-linux-gnu/libva.so.2.* /usr/lib/plexmediaserver/lib/libva.so.2 &&
 cp /lib/x86_64-linux-gnu/libstdc++.so.6.* /usr/lib/plexmediaserver/lib/libstdc++.so.6 
 
 apt-get install -y ffmpeg
+
+ln -s /usr/bin/ffmpeg /usr/lib/plexmediaserver/Babo\ Transcoder
